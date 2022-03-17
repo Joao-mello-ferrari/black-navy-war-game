@@ -13,7 +13,7 @@ except: print(importErrorMessage())
 
 def main(firstTime, win):
     if firstTime:
-        win=GraphWin("ChromeDino", 1300, 600, autoflush=False)
+        win=GraphWin("Black navy War", 1300, 600, autoflush=False)
         drawFooter(win, "#222222")
     
     blackShips, redShips, introObjects = drawIntro(win, firstTime)
